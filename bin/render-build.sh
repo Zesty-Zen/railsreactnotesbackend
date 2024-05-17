@@ -2,6 +2,7 @@
 # exit on error
 set -o errexit
 
+# Install gems
 bundle install
-bundle exec rails assets:precompile
-bundle exec rails assets:clean
+
+# You can remove the assets-related commands
