@@ -6,3 +6,5 @@ set -o errexit
 bundle install
 
 # You can remove the assets-related commands
+
+bundle exec rails db:migrate # Ensure migrations are run
